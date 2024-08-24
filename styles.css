@@ -1,0 +1,89 @@
+.flex-container {
+    display: flex; 
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.flex-container .headerLogo {
+    color: #F9FAF8;
+    font-size: 24px;
+    flex-grow: 1;
+    padding: 40px;
+}
+
+.flex-container .headerLinkOne, .headerLinkTwo, .headerLinkThree {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.flexbox-wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    width: 50%;
+    padding: 100px;
+}
+
+.flex-container2 .awesome {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 5px;
+}
+
+.flex-container2 .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 5px;
+}
+
+.flex-container2 .signUp {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 100px;
+    border: #3882f6;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.flex-container3 {
+    display: flex;
+    width: 50%;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container3 .placeholder{
+    display: flex;
+    padding: 30px;
+    height: 100px;
+    background-color: #E5E7EB;
+    align-items: center;
+    font-size: 18px;
+}
+
+.flex-container4 {
+    display: flex;
+    background-color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex-container4 .information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 10px;
+}

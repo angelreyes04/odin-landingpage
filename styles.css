@@ -87,3 +87,34 @@
     color: #1F2937;
     padding: 10px;
 }
+ .flex-container5 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    padding: 10px;
+ }
+
+ .flex-container5 .box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+ .flex-container5 .box-container .box1, .box2, .box3, .box4{
+    border: 5px solid #3882f6;
+    padding: 75px;
+    background-color: #F9FAF8;
+    border-radius: 8px;
+ }
+
+ .flex-container5 .subtext {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+
+ .flex-container5 .subtext .sub1, .sub2, .sub3, .sub4 {
+    width: 150px;
+    padding: 10px;
+ }

@@ -118,3 +118,85 @@
     width: 150px;
     padding: 10px;
  }
+
+ .flex-container6 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .flex-container6 .quote-container .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 25px;
+    flex-wrap: wrap;
+    width: 800px;
+ }
+
+ .flex-container6 .author-container .author {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bold;
+    margin-left: 250px;
+    padding: 25px;
+ }
+
+ .flex-container7 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 100px;
+ }
+
+ .flex-container7 .blue-container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 75px;
+    border-radius: 8px;
+    width: 600px;
+ }
+
+ .flex-container7 .blue-container .action {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .flex-container7 .blue-container .action .call {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+ }
+
+.flex-container7 .blue-container .action .click {
+    font-size: 12px;
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+
+.flex-container7 .blue-container .button .signUp {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    margin-left: 100px;
+    width: 100px;
+}
+
+.flex-container8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 25px;
+}
+
+.flex-container8 .copyright {
+    font-size: 12px;
+    color: #F9FAF8;
+    font-weight: lighter;
+}
